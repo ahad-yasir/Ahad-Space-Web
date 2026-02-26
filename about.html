@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عن عهد - فضاء عهد</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&family=Fira+Code&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- نفس شريط التنقل مع تحديث الرابط النشط -->
+    <nav class="navbar">
+        <div class="container flex-between">
+            <div class="logo">
+                <div class="logo-icon"><span>AS</span></div>
+                <div class="logo-text">فضاء <span>عهد</span></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html" class="active">عني</a></li>
+                <li><a href="portfolio.html">محفظة الأعمال</a></li>
+                <li><a href="blog.html">المدونة</a></li>
+            </ul>
+
+            <!-- زر تبديل الوضع ليلي/نهاري -->
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch" class="theme-switch-input">
+                <label for="theme-switch" class="theme-switch-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <span class="switch-slider"></span>
+                </label>
+            </div>
+
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- قسم فضاء عهد -->
+    <section class="about-cosmic section-padding">
+        <div class="container">
+            <h1 class="page-title text-center">عن عهد</h1>
+            <div class="cosmic-header text-center">
+                <h2 class="cosmic-title">
+                    <span class="stars">🌌</span> مرحباً بكم في <span class="glow-name">فضاء عهد</span> <span class="stars">🌌</span>
+                </h2>
+                <p class="cosmic-subtitle">حيث تتحول الأرقام إلى قصص، والبيانات إلى رؤى ملهمة.</p>
+            </div>
+
+            <!-- بطاقة من أنا؟ -->
+            <div class="about-card glow-on-hover">
+                <div class="card-header">
+                    <span class="card-icon">👩‍💻</span>
+                    <h3>من أنا؟</h3>
+                </div>
+                <div class="card-body">
+                    <p>أنا <span class="highlight">عهد</span>، مزيج بين دقة <span class="highlight-tech">مختصة البيانات</span> وحرية <span class="highlight-blog">المدونة الشغوفة</span>. أسكن في المنطقة الفاصلة بين لغة الأرقام الصارمة ولغة الكلمات المؤثرة.</p>
+                    <p>بصفتي <span class="highlight-tech">مختصة بيانات</span>، أقضي يومي في استنطاق الأرقام وبناء النماذج التحليلية. وبصفتي <span class="highlight-blog">مدونة حرة</span>، أترجم هذه التعقيدات التقنية، وتجاربي في تطوير الذات، وهواياتي، إلى محتوى يلامس العقل والروح.</p>
+                </div>
+            </div>
+
+            <!-- مداراتي المهنية والإبداعية -->
+            <h3 class="orbits-title text-center section-title">🧭 مداراتي المهنية والإبداعية</h3>
+
+            <div class="orbits-grid">
+                <!-- مدار مختصة بيانات -->
+                <div class="orbit-card glow-on-hover">
+                    <div class="orbit-header">
+                        <span class="orbit-icon">📊</span>
+                        <h4>مختصة بيانات</h4>
+                    </div>
+                    <p class="orbit-quote">"لا أرى البيانات كأرقام في جداول، بل كخريطة طريق للمستقبل."</p>
+                    <p class="orbit-text">تخصصي يكمن في:</p>
+                    <div class="skills-cloud">
+                        <span class="skill-tag">تحليل وتصور البيانات</span>
+                        <span class="skill-tag">البحث عن الأنماط</span>
+                        <span class="skill-tag">تعلم الآلة</span>
+                        <span class="skill-tag">التعلم العميق</span>
+                        <span class="skill-tag">الذكاء الاصطناعي</span>
+                        <span class="skill-tag">إدارة وحوكمة البيانات</span>
+                    </div>
+                    <p class="orbit-text mt-4">استخدم الأدوات التقنية مثل:</p>
+                    <div class="tools-cloud">
+                        <span class="tool-tag">Python</span>
+                        <span class="tool-tag">SQL</span>
+                        <span class="tool-tag">Excel</span>
+                        <span class="tool-tag">Tableau</span>
+                        <span class="tool-tag">Power BI</span>
+                        <span class="tool-tag">Scikit-learn</span>
+                        <span class="tool-tag">TensorFlow</span>
+                    </div>
+                </div>
+
+                <!-- مدار مدونة حرة -->
+                <div class="orbit-card glow-on-hover">
+                    <div class="orbit-header">
+                        <span class="orbit-icon">✍️</span>
+                        <h4>مدونة حرة</h4>
+                    </div>
+                    <p class="orbit-quote">"هنا أستبدل رداء الأرقام برداء الكلمات."</p>
+                    <p class="orbit-text">في مدونتي أشاركك:</p>
+                    <ul class="orbit-list">
+                        <li><i class="fas fa-check-circle"></i> كل ما أعتقد أنه يستحق النشر</li>
+                        <li><i class="fas fa-check-circle"></i> تبسيط مفاهيم تقنية</li>
+                        <li><i class="fas fa-check-circle"></i> فلسفة التطوير</li>
+                        <li><i class="fas fa-check-circle"></i> آفاق الهوايات</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- قسم السيرة الذاتية -->
+            <section class="cv-section">
+                <h3 class="section-title text-center">السيرة الذاتية</h3>
+                <div class="timeline">
+
+                    <!-- التعليم -->
+                    <div class="timeline-category-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>التعليم</h4>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="timeline-content glow-on-hover">
+                            <span class="timeline-date">2020 - 2024</span>
+                            <h3>بكالوريوس علوم البيانات</h3>
+                            <p class="timeline-institution">جامعة الملك سعود، الرياض</p>
+                            <p>تخرجت بمرتبة الشرف الأولى مع التركيز على تعلم الآلة وتحليل البيانات الضخمة.</p>
+                        </div>
+                    </div>
+
+                    <!-- الخبرة المهنية -->
+                    <div class="timeline-category-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h4>الخبرة المهنية</h4>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content glow-on-hover">
+                            <span class="timeline-date">2024 - الآن</span>
+                            <h3>مختصة بيانات</h3>
+                            <p class="timeline-institution">شركة الحلول المبتكرة، الرياض</p>
+                            <p>أعمل على تطوير نماذج تنبؤية لتحسين تجربة العملاء وزيادة المبيعات بنسبة 15%.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content glow-on-hover">
+                            <span class="timeline-date">صيف 2023</span>
+                            <h3>متدربة تحليل بيانات</h3>
+                            <p class="timeline-institution">Tech Solutions Inc., Riyadh</p>
+                            <p>ساعدت فريق علم البيانات في تنظيف ومعالجة البيانات وإنشاء لوحات معلومات لعميل رئيسي في قطاع التجزئة.</p>
+                        </div>
+                    </div>
+
+                    <!-- الشهادات والدورات -->
+                    <div class="timeline-category-header">
+                        <i class="fas fa-certificate"></i>
+                        <h4>الشهادات والدورات</h4>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="timeline-content glow-on-hover">
+                            <span class="timeline-date">2024</span>
+                            <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
+                            <p class="timeline-institution">Microsoft</p>
+                            <p>اكتسبت خبرة في تصميم وبناء نماذج بيانات قابلة للتطوير، وتنظيف وتحويل البيانات.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="timeline-content glow-on-hover">
+                            <span class="timeline-date">2023</span>
+                            <h3>شهادة احترافية في تحليل البيانات من Google</h3>
+                            <p class="timeline-institution">Coursera</p>
+                            <p>أكملت 8 دورات متخصصة في جمع البيانات وتحليلها وتصويرها باستخدام Python, SQL, و Tableau.</p>
+                        </div>
+                    </div>
+
+                    <!-- التطوع -->
+                    <div class="timeline-category-header">
+                        <i class="fas fa-hands-helping"></i>
+                        <h4>التطوع</h4>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-hands-helping"></i></div>
+                        <div class="timeline-content glow-on-hover">
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>مرشدة بيانات</h3>
+                            <p class="timeline-institution">مبادرة الكود للمجتمع</p>
+                            <p>تطوعت لتعليم مهارات تحليل البيانات الأساسية لطلاب الجامعات ومساعدتهم في مشاريع تخرجهم.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- رؤيتي في فضاء عهد -->
+            <div class="vision-card glow-on-hover">
+                <div class="vision-header">
+                    <span class="vision-icon">💡</span>
+                    <h3>رؤيتي في فضاء عهد</h3>
+                </div>
+                <p class="vision-text">أسست هذا الفضاء ليكون أكثر من مجرد موقع شخصي؛ إنه منصة لإثبات أن <span class="highlight">التخصص التقني لا يلغي الجانب الإبداعي</span>. طموحي هو بناء عمل خاص يدمج بين تخصص البيانات وصناعة المحتوى المؤثر، لترك بصمة في عالم ريادة الأعمال.</p>
+
+                <div class="vision-quote">
+                    <i class="fas fa-quote-right"></i>
+                    <p>"أنا لا أحلل البيانات فقط، أنا أحكي قصتها. ولا أعيش الحياة فقط، بل أدونها لأتعلم منها."</p>
+                </div>
+            </div>
+
+            <!-- لنتعاون معاً -->
+            <div class="collaboration-section">
+                <h3 class="collaboration-title text-center section-title">🤝 لنتعاون معاً</h3>
+                <p class="collaboration-text text-center">سواء كنتِ تمثلين شركة تبحث عن رؤى تحليلية دقيقة، أو قارئاً يبحث عن محتوى يثري فكره، يسعدني دائماً أن تتقاطع مداراتنا.</p>
+
+                <div class="collaboration-links">
+                    <div class="collab-card glow-on-hover">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <h4>للتعاون المهني (بيانات)</h4>
+                            <a href="portfolio.html" class="collab-link">محفظة الأعمال <i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="collab-card glow-on-hover">
+                        <i class="fas fa-book-open"></i>
+                        <div>
+                            <h4>للقراءة والاستلهام (المدونة)</h4>
+                            <a href="blog.html" class="collab-link">أحدث التدوينات <i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="direct-contact">
+                    <p>تواصل مباشر:</p>
+                    <div class="contact-channels">
+                        <a href="mailto:ahd@example.com" class="contact-channel"><i class="fas fa-envelope"></i> ahd@example.com</a>
+                        <a href="#" class="contact-channel"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- نفس التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-widget">
+                    <h3>فضاء عهد</h3>
+                    <p>حيث تتحول الأرقام إلى قصص، والبيانات إلى رؤى ملهمة.</p>
+                </div>
+                <div class="footer-widget">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">عني</a></li>
+                        <li><a href="portfolio.html">محفظة الأعمال</a></li>
+                        <li><a href="blog.html">المدونة</a></li>
+                        <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>تواصل معي</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:ahd@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2026 فضاء عهد - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/theme.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="فضاء عهد - مختصة بيانات ومدونة حرة">
+    <meta name="keywords" content="علم البيانات, تحليل البيانات, مدونة, تطوير ذاتي">
+    <title>فضاء عهد - مختصة بيانات && مدونة حرة</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&family=Fira+Code&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container flex-between">
+            <div class="logo">
+                <div class="logo-icon"><span>AS</span></div>
+                <div class="logo-text">فضاء <span>عهد</span></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">الرئيسية</a></li>
+                <li><a href="about.html">عني</a></li>
+                <li><a href="portfolio.html">محفظة الأعمال</a></li>
+                <li><a href="blog.html">المدونة</a></li>
+            </ul>
+
+            <!-- زر تبديل الوضع ليلي/نهاري -->
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch" class="theme-switch-input">
+                <label for="theme-switch" class="theme-switch-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <span class="switch-slider"></span>
+                </label>
+            </div>
+
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- قسم الترحيب الرئيسي -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text glow-on-hover">
+                    <h1 class="cosmic-title">
+                        <span class="stars">✨</span> مرحباً بكم في <span class="glow-name">فضاء عهد</span> <span class="stars">✨</span>
+                    </h1>
+                    <p class="hero-description">
+                        هنا حيث تتقاطع خوارزميات البيانات مع مسارات الحياة. أعمل على تحويل البيانات الضخمة إلى قصص مفهومة، وأوثق تجاربي في تطوير الذات وهواياتي لنكتشف معاً كيف يمكن للمنطق أن يخدم الشغف.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" id="projects-count">24</span>
+                            <span class="stat-label">مشروع</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="articles-count">37</span>
+                            <span class="stat-label">مقال</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="visitors-count">12.5k</span>
+                            <span class="stat-label">زائر</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#newsletter" class="btn-primary"><i class="fas fa-envelope"></i> اشترك في النشرة</a>
+                        <a href="cv/عهد-cv.pdf" download class="btn-secondary"><i class="fas fa-download"></i> تحميل السيرة الذاتية (عربي)</a>
+                        <a href="cv/ahd-cv.pdf" download class="btn-secondary"><i class="fas fa-download"></i> Download CV (English)</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://picsum.photos/seed/ahad/500/500" alt="عهد" referrerPolicy="no-referrer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم أحدث المشاريع -->
+    <section class="latest-projects section-padding">
+        <div class="container">
+            <h2 class="section-title">أحدث المشاريع</h2>
+            <div class="projects-grid">
+                <!-- مشروع 1 -->
+                <div class="project-card glow-on-hover">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/p1/400/250" alt="مشروع" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="project-info">
+                        <h3>تحليل مبيعات متجر إلكتروني</h3>
+                        <p>تحليل بيانات مبيعات 3 سنوات باستخدام Python وPower BI</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                        <a href="project-template.html?id=1" class="read-more">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <!-- مشروع 2 -->
+                <div class="project-card glow-on-hover">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/p2/400/250" alt="مشروع" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="project-info">
+                        <h3>نموذج توقع أسعار العقارات</h3>
+                        <p>بناء نموذج تعلم آلة للتنبؤ بأسعار العقارات بدقة 89%</p>
+                        <div class="project-tags">
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Regression</span>
+                        </div>
+                        <a href="project-template.html?id=2" class="read-more">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <!-- مشروع 3 -->
+                <div class="project-card glow-on-hover">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/p3/400/250" alt="مشروع" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="project-info">
+                        <h3>لوحة معلومات تفاعلية</h3>
+                        <p>تصور بيانات العملاء وسلوكهم باستخدام Tableau</p>
+                        <div class="project-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Dashboard</span>
+                        </div>
+                        <a href="project-template.html?id=3" class="read-more">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="portfolio.html" class="btn-primary">عرض جميع المشاريع</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم أحدث المقالات -->
+    <section class="latest-articles section-padding">
+        <div class="container">
+            <h2 class="section-title">أحدث المقالات</h2>
+            <div class="articles-grid">
+                <!-- مقال 1 -->
+                <article class="blog-card glow-on-hover">
+                    <img src="https://picsum.photos/seed/b1/400/200" alt="مقال" referrerPolicy="no-referrer">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 20 فبراير 2026</span>
+                            <span class="blog-category">تقني</span>
+                        </div>
+                        <h3>مقدمة في علم البيانات للمبتدئين</h3>
+                        <p>ما هو علم البيانات؟ وما المهارات المطلوبة لتصبح عالم بيانات؟</p>
+                        <a href="blog-post-template.html?id=1" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </article>
+                <!-- مقال 2 -->
+                <article class="blog-card glow-on-hover">
+                    <img src="https://picsum.photos/seed/b2/400/200" alt="مقال" referrerPolicy="no-referrer">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 15 فبراير 2026</span>
+                            <span class="blog-category">تطوير ذاتي</span>
+                        </div>
+                        <h3>كيف نبني عادة القراءة اليومية</h3>
+                        <p>تجربتي في بناء عادة القراءة وأثرها على حياتي المهنية</p>
+                        <a href="blog-post-template.html?id=2" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </article>
+                <!-- مقال 3 -->
+                <article class="blog-card glow-on-hover">
+                    <img src="https://picsum.photos/seed/b3/400/200" alt="مقال" referrerPolicy="no-referrer">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 10 فبراير 2026</span>
+                            <span class="blog-category">عام</span>
+                        </div>
+                        <h3>التصوير كهواية وتأثيره على الإبداع</h3>
+                        <p>كيف ساعدني التصوير على رؤية العالم من زاوية مختلفة</p>
+                        <a href="blog-post-template.html?id=3" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="section-footer">
+                <a href="blog.html" class="btn-primary">عرض جميع المقالات</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم النشرة البريدية -->
+    <section id="newsletter" class="newsletter-section section-padding">
+        <div class="container">
+            <div class="newsletter-box glow-on-hover">
+                <h3><i class="fas fa-envelope-open-text"></i> النشرة البريدية</h3>
+                <p>اشترك/ي لتصلك أحدث المقالات والدورات والمشاريع الجديدة</p>
+                
+                <!-- ConvertKit Form Placeholder -->
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" placeholder="بريدك الإلكتروني" required>
+                    <button type="submit" class="btn-primary">اشترك الآن</button>
+                </form>
+                
+                <p class="newsletter-note" style="margin-top: 15px;">
+                    بضغطك على زر الاشتراك، أنت توافق على 
+                    <a href="privacy-policy.html" class="privacy-link-highlight">سياسة الخصوصية</a> الخاصة بنا.
+                </p>
+                
+                <!-- NOTE: Add ConvertKit JavaScript snippet here -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التقويم الشهري -->
+    <section class="events-calendar-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-calendar-alt"></i> التقويم الشهري للأحداث والفعاليات
+                </h2>
+                <p class="section-subtitle">أبرز الأحداث والفعاليات الوطنية والعالمية التي تهمك</p>
+            </div>
+
+            <!-- أزرار التبديل بين الشهور -->
+            <div class="month-navigation">
+                <button class="month-nav-btn prev-month"><i class="fas fa-chevron-right"></i></button>
+                <h3 class="current-month" id="current-month-display">فبراير 2026</h3>
+                <button class="month-nav-btn next-month"><i class="fas fa-chevron-left"></i></button>
+            </div>
+
+            <!-- شبكة الفعاليات -->
+            <div class="events-grid" id="events-grid-container">
+                <!-- فعاليات السعودية (سيتم تعبئتها عبر JavaScript) -->
+                <!-- فعاليات العالمية (سيتم تعبئتها عبر JavaScript) -->
+            </div>
+
+            <!-- رسالة عند عدم وجود فعاليات -->
+            <div class="no-events-message" id="no-events-message" style="display: none;">
+                <i class="fas fa-calendar-times"></i>
+                <p>لا توجد فعاليات مسجلة لهذا الشهر. ترقبوا التحديثات قريباً!</p>
+            </div>
+
+            <!-- زر عرض المزيد (رابط لمصدر خارجي) -->
+            <div class="calendar-footer">
+                <a href="https://www.hackathonat.com/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                    <i class="fas fa-external-link-alt"></i> استعرض المزيد من الهاكاثونات
+                </a>
+                <p class="calendar-note">يتم تحديث التقويم شهرياً • يمكنك ترشيح فعاليات عبر <a href="mailto:ahd@example.com">البريد الإلكتروني</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-widget">
+                    <h3>فضاء عهد</h3>
+                    <p>حيث تتحول الأرقام إلى قصص، والبيانات إلى رؤى ملهمة.</p>
+                </div>
+                <div class="footer-widget">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">عني</a></li>
+                        <li><a href="portfolio.html">محفظة الأعمال</a></li>
+                        <li><a href="blog.html">المدونة</a></li>
+                        <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>تواصل معي</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:ahd@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2026 فضاء عهد - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
